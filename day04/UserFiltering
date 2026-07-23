@@ -1,0 +1,197 @@
+const UserFiltering = [
+  // ======================
+  // Babies (0 - 3)
+  // ======================
+  { name: "Liam", age: 1, YearBirth: "12/03/2025", gmail: "liam01@gmail.com" },
+  { name: "Emma", age: 2, YearBirth: "08/07/2024", gmail: "emma02@gmail.com" },
+  { name: "Noah", age: 3, YearBirth: "15/11/2023", gmail: "noah03@gmail.com" },
+  {
+    name: "Olivia",
+    age: 1,
+    YearBirth: "21/01/2025",
+    gmail: "olivia04@gmail.com",
+  },
+  {
+    name: "Lucas",
+    age: 2,
+    YearBirth: "30/05/2024",
+    gmail: "lucas05@gmail.com",
+  },
+  {
+    name: "Sophia",
+    age: 3,
+    YearBirth: "17/09/2023",
+    gmail: "sophia06@gmail.com",
+  },
+  {
+    name: "James",
+    age: 1,
+    YearBirth: "02/12/2025",
+    gmail: "james07@gmail.com",
+  },
+  { name: "Mia", age: 2, YearBirth: "10/04/2024", gmail: "mia08@gmail.com" },
+  {
+    name: "Benjamin",
+    age: 3,
+    YearBirth: "28/08/2023",
+    gmail: "benjamin09@gmail.com",
+  },
+  {
+    name: "Charlotte",
+    age: 1,
+    YearBirth: "14/06/2025",
+    gmail: "charlotte10@gmail.com",
+  },
+
+  // ======================
+  // Children (4 - 12)
+  // ======================
+  {
+    name: "Daniel",
+    age: 4,
+    YearBirth: "05/02/2022",
+    gmail: "daniel11@gmail.com",
+  },
+  { name: "Ella", age: 5, YearBirth: "18/10/2021", gmail: "ella12@gmail.com" },
+  {
+    name: "Henry",
+    age: 6,
+    YearBirth: "07/03/2020",
+    gmail: "henry13@gmail.com",
+  },
+  {
+    name: "Grace",
+    age: 7,
+    YearBirth: "11/01/2019",
+    gmail: "grace14@gmail.com",
+  },
+  { name: "Jack", age: 8, YearBirth: "23/06/2018", gmail: "jack15@gmail.com" },
+  { name: "Ava", age: 9, YearBirth: "29/11/2017", gmail: "ava16@gmail.com" },
+  {
+    name: "Samuel",
+    age: 10,
+    YearBirth: "15/04/2016",
+    gmail: "samuel17@gmail.com",
+  },
+  { name: "Lily", age: 11, YearBirth: "09/09/2015", gmail: "lily18@gmail.com" },
+  {
+    name: "David",
+    age: 12,
+    YearBirth: "27/12/2014",
+    gmail: "david19@gmail.com",
+  },
+  {
+    name: "Chloe",
+    age: 12,
+    YearBirth: "13/08/2014",
+    gmail: "chloe20@gmail.com",
+  },
+
+  // ======================
+  // Teenagers (13 - 19)
+  // ======================
+  {
+    name: "Ethan",
+    age: 13,
+    YearBirth: "06/05/2013",
+    gmail: "ethan21@gmail.com",
+  },
+  { name: "Zoey", age: 14, YearBirth: "19/02/2012", gmail: "zoey22@gmail.com" },
+  {
+    name: "Matthew",
+    age: 15,
+    YearBirth: "30/07/2011",
+    gmail: "matthew23@gmail.com",
+  },
+  {
+    name: "Hannah",
+    age: 16,
+    YearBirth: "12/10/2010",
+    gmail: "hannah24@gmail.com",
+  },
+  {
+    name: "Joseph",
+    age: 17,
+    YearBirth: "08/03/2009",
+    gmail: "joseph25@gmail.com",
+  },
+  {
+    name: "Natalie",
+    age: 18,
+    YearBirth: "22/01/2008",
+    gmail: "natalie26@gmail.com",
+  },
+  {
+    name: "Andrew",
+    age: 19,
+    YearBirth: "17/06/2007",
+    gmail: "andrew27@gmail.com",
+  },
+  {
+    name: "Victoria",
+    age: 15,
+    YearBirth: "04/09/2011",
+    gmail: "victoria28@gmail.com",
+  },
+  { name: "Ryan", age: 16, YearBirth: "25/12/2010", gmail: "ryan29@gmail.com" },
+  {
+    name: "Sarah",
+    age: 17,
+    YearBirth: "14/04/2009",
+    gmail: "sarah30@gmail.com",
+  },
+
+  // ======================
+  // Adults (20+)
+  // ======================
+  { name: "Mike", age: 22, YearBirth: "14/02/2004", gmail: "mike31@gmail.com" },
+  { name: "John", age: 25, YearBirth: "09/11/2001", gmail: "john32@gmail.com" },
+  {
+    name: "Emily",
+    age: 28,
+    YearBirth: "21/05/1998",
+    gmail: "emily33@gmail.com",
+  },
+  {
+    name: "Michael",
+    age: 31,
+    YearBirth: "13/08/1995",
+    gmail: "michael34@gmail.com",
+  },
+  {
+    name: "Jessica",
+    age: 35,
+    YearBirth: "18/12/1991",
+    gmail: "jessica35@gmail.com",
+  },
+  {
+    name: "William",
+    age: 40,
+    YearBirth: "02/06/1986",
+    gmail: "william36@gmail.com",
+  },
+  {
+    name: "Sophia",
+    age: 45,
+    YearBirth: "26/01/1981",
+    gmail: "sophia37@gmail.com",
+  },
+  {
+    name: "Robert",
+    age: 50,
+    YearBirth: "11/07/1976",
+    gmail: "robert38@gmail.com",
+  },
+  {
+    name: "Linda",
+    age: 55,
+    YearBirth: "24/09/1971",
+    gmail: "linda39@gmail.com",
+  },
+  {
+    name: "James",
+    age: 60,
+    YearBirth: "16/03/1966",
+    gmail: "james40@gmail.com",
+  },
+];
